@@ -39,7 +39,7 @@ Template.Formulario.events({
         password:password,
         email:email 
       }
-      console.log("Person: "person);
-      event.target.first_name.value=""    
+      console.log("Person: ", person);
+      event.target.first_name.value="";    
   }
 });
